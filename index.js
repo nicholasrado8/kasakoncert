@@ -154,37 +154,37 @@ function update_prices(){
 
     let toceno = document.getElementById("item-toceno");
     if (toceno != null) {
-        toceno.innerText = `Pivo 50cl: ${quantities.toceno}.    Ukupno: ${quantities.toceno * prices.toceno} €`;
+        toceno.innerText = `Toceno: ${quantities.toceno}.    Ukupno: ${quantities.toceno * prices.toceno} €`;
     }
 
     let sok = document.getElementById("item-sok");
     if (sok != null) {
-        sok.innerText = `Pivo 50cl: ${quantities.sok}.    Ukupno: ${quantities.sok * prices.sok} €`;
+        sok.innerText = `Sok: ${quantities.sok}.    Ukupno: ${quantities.sok * prices.sok} €`;
     }
 
     let obicna = document.getElementById("item-obicna");
     if (obicna != null) {
-        obicna.innerText = `Pivo 50cl: ${quantities.obicna}.    Ukupno: ${quantities.obicna * prices.obicna} €`;
+        obicna.innerText = `Obicna: ${quantities.obicna}.    Ukupno: ${quantities.obicna * prices.obicna} €`;
     }
 
     let kisela = document.getElementById("item-kisela");
     if (kisela != null) {
-        kisela.innerText = `Pivo 50cl: ${quantities.kisela}.    Ukupno: ${quantities.kisela * prices.kisela} €`;
+        kisela.innerText = `Kisela: ${quantities.kisela}.    Ukupno: ${quantities.kisela * prices.kisela} €`;
     }
 
     let rakija = document.getElementById("item-rakija");
     if (rakija != null) {
-        rakija.innerText = `Pivo 50cl: ${quantities.rakija}.    Ukupno: ${quantities.rakija * prices.rakija} €`;
+        rakija.innerText = `Rakija: ${quantities.rakija}.    Ukupno: ${quantities.rakija * prices.rakija} €`;
     }
 
     let pljeskavica = document.getElementById("item-pljeskavica");
     if (pljeskavica != null) {
-        pljeskavica.innerText = `Pivo 50cl: ${quantities.pljeskavica}.    Ukupno: ${quantities.pljeskavica * prices.pljeskavica} €`;
+        pljeskavica.innerText = `Pljeskavica: ${quantities.pljeskavica}.    Ukupno: ${quantities.pljeskavica * prices.pljeskavica} €`;
     }
 
     let pomfrit = document.getElementById("item-pomfrit");
     if (pomfrit != null) {
-        pomfrit.innerText = `Pivo 50cl: ${quantities.pomfrit}.    Ukupno: ${quantities.pomfrit * prices.pomfrit} €`;
+        pomfrit.innerText = `Pomfrit: ${quantities.pomfrit}.    Ukupno: ${quantities.pomfrit * prices.pomfrit} €`;
     }
 
     let ukupno = 0;
@@ -199,4 +199,5 @@ function update_prices(){
     ukupno += quantities.pomfrit * prices.pomfrit;
 
     document.getElementById("total").innerText = `UKUPNO: ${ukupno} €`;
+
 }
