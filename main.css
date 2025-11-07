@@ -1,0 +1,122 @@
+html {
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+hr {
+    border-width: 2px;
+    color: black;
+    background: black;
+}
+
+#cancel {
+    width: auto;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 5vw;
+    margin-top: 10px;
+    text-align: center;
+    background-color: red;
+}
+
+#total {
+    width: auto;
+    font-size: 4em;
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-top: 10px;
+}
+
+.section {
+    display:none;
+}
+
+
+
+/***********BILL DIV*****************/
+
+#bill-div {
+    border: 4px solid black;
+    width: 90%;
+    height: 42vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow: hidden;
+}
+
+.item {
+    width: 100%;
+    height: 5%;
+    border: 1px solid black;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    padding: 5%;
+}
+
+
+
+
+
+/***********INPUT DIV*****************/
+#pice {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.container div {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#hrana {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#input-div  {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+#pivo33, #pivo50, #toceno {
+    background-color: #e8e400;
+}
+
+#sok {
+    background-color: #f02d26;
+}
+
+#obicna, #kisela {
+    background-color: #2698f0;
+}
+
+#rakija {
+    background-color: #b86206
+}
+
+#pljeskavica {
+    background-color: #3b1f01;
+    color: white;
+}
+
+#pomfrit {
+    background-color: #fcec03;
+}
